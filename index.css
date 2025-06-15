@@ -37,6 +37,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 0.75rem  0rem 0rem 0.75rem ;
+    content: url(./images/image-product-desktop.jpg);
 }
 p{
     color: #6c7289;
@@ -89,4 +90,20 @@ p{
 }
 .cart{
     color: white;
+}
+@media (max-width: 600px) {
+ .productCard{
+    display: flex;
+    flex-direction: column;
+ }   
+.details{
+    gap: 0.95;
+}
+.btn{
+    width: 100%;
+}
+.perfume{
+    content: url(./images/image-product-mobile.jpg);
+ border-radius: 0.75rem 0.75rem 0rem 0rem;
+}
 }
