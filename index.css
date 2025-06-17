@@ -11,6 +11,9 @@ body{
     align-items: center;
     padding: 1rem;
     min-height: 100vh;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     
 }
 .productCard{
@@ -40,7 +43,10 @@ body{
     content: url(./images/image-product-desktop.jpg);
 }
 p{
-    color: #6c7289;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7289;
 }
 .descriptions{
     font-size: 15px;
@@ -52,9 +58,9 @@ p{
 }
 .brand{
     font-size: 2.25rem;
+    font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-family: Fraunces;
-    color:black;
+    color: #1b4133; 
 }
 .price{
     display: flex;
@@ -94,10 +100,12 @@ p{
 @media (max-width: 600px) {
  .productCard{
     display: flex;
+    
     flex-direction: column;
  }   
 .details{
     gap: 0.95;
+    max-width: 450px;
 }
 .btn{
     width: 100%;
